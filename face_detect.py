@@ -2,7 +2,7 @@ import cv2 as cv
 from cv2 import imshow
 import numpy as np
 
-# Reading images
+# Reading images from the folder
 img = cv.imread('./Photos/group 1.jpg')
 cv.imshow('group',img)
 
